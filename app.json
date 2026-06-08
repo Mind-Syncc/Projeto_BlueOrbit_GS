@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "BLUE ORBIT",
+    "slug": "BlueOrbit-space-safety",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.BlueOrbit.spacesafety"
+    },
+
+    "android": {
+      "package": "com.BlueOrbit.spacesafety",
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "NOTIFICATIONS",
+        "VIBRATE"
+      ]
+    },
+
+    "plugins": [
+      "expo-font",
+      "expo-notifications"
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "SEU_PROJECT_ID_DO_EAS"
+      }
+    }
+  }
+}
