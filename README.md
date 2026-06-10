@@ -1,4 +1,4 @@
-# 🌍 BlueOrbit – Space Safety Intelligence
+# 🌍 BlueOrbit - Space Safety Intelligence
 
 ## 📖 Sobre o Projeto
 
@@ -222,11 +222,11 @@ Por meio do monitoramento orbital, análise de dados e Inteligência Artificial,
 
 ### Integrantes
 
-- Heloísa Fleury Jardim — RM556378
-- Juan Fuentes Rufino — RM557673
-- Rickelmyn de Souza Ruescas — RM556055
-- Paulo Henrique Monteiro Golovanevsky — RM555300
-- Pedro Henrique Silva Batista — RM558137
+- Heloísa Fleury Jardim - RM556378
+- Juan Fuentes Rufino - RM557673
+- Rickelmyn de Souza Ruescas - RM556055
+- Paulo Henrique Monteiro Golovanevsky - RM555300
+- Pedro Henrique Silva Batista - RM558137
 
 ## 🌍 BlueOrbit
 
