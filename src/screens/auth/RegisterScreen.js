@@ -30,7 +30,7 @@ import Svg, {
   Circle,
 } from "react-native-svg";
 
-import { auth } from "../firebase/config";
+import { auth } from "../../firebase/config";
 
 export default function RegisterScreen({ navigation }) {
   const [name, setName] = useState("");

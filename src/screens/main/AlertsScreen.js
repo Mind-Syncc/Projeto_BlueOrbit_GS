@@ -13,10 +13,10 @@ import {
   StatusBadge,
   Button,
   RiskIcon,
-} from "../components/UI";
-import { mockAlerts } from "../utils/mockData";
-import BottomNav from "../components/BottomNav";
-import { colors } from "../styles/theme";
+} from "../../components/UI";
+import { mockAlerts } from "../../utils/mockData";
+import BottomNav from "../../components/BottomNav";
+import { colors } from "../../styles/theme";
 
 const AlertsScreen = ({ setScreen, setSelectedAlert }) => {
   const insets = useSafeAreaInsets();

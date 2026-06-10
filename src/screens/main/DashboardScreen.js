@@ -24,11 +24,11 @@ import Svg, {
 } from "react-native-svg";
 import * as Print from "expo-print";
 import * as Sharing from "expo-sharing";
-import { Card, RiskBadge } from "../components/UI";
-import { colors } from "../styles/theme";
-import { auth } from "../firebase/config";
-import BottomNav from "../components/BottomNav";
-import { fetchSpaceObjects } from "../services/celestrakService";
+import { Card, RiskBadge } from "../../components/UI";
+import { colors } from "../../styles/theme";
+import { auth } from "../../firebase/config";
+import BottomNav from "../../components/BottomNav";
+import { fetchSpaceObjects } from "../../services/celestrakService";
 import * as Notifications from "expo-notifications";
 
 Notifications.setNotificationHandler({

@@ -9,8 +9,8 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Svg, { Path, Circle, Line } from "react-native-svg";
-import { Card } from "../components/UI";
-import { colors } from "../styles/theme";
+import { Card } from "../../components/UI";
+import { colors } from "../../styles/theme";
 
 const BrainIcon = () => (
   <Svg width={28} height={28} viewBox="0 0 24 24" fill="none">

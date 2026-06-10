@@ -9,10 +9,10 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import * as Notifications from "expo-notifications";
-import { Card } from "../components/UI";
-import { colors } from "../styles/theme";
+import { Card } from "../../components/UI";
+import { colors } from "../../styles/theme";
 import { Ionicons } from "@expo/vector-icons";
-import { fetchSpaceObjects } from "../services/celestrakService";
+import { fetchSpaceObjects } from "../../services/celestrakService";
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({

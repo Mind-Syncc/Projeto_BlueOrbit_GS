@@ -8,8 +8,8 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Svg, { Rect, Line, Circle, Path } from "react-native-svg";
-import { Card, RiskBadge } from "../components/UI";
-import { colors } from "../styles/theme";
+import { Card, RiskBadge } from "../../components/UI";
+import { colors } from "../../styles/theme";
 
 const SatelliteIllustration = () => (
   <Svg width={180} height={100} viewBox="0 0 180 100">

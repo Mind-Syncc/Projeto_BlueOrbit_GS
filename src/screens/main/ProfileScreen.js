@@ -12,12 +12,12 @@ import {
 
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { signOut } from "firebase/auth";
-import { auth } from "../firebase/config";
-import { getOccurrences } from "../firebase/databaseService";
-import { fetchSpaceObjects } from "../services/celestrakService";
-import { Card, Button } from "../components/UI";
-import BottomNav from "../components/BottomNav";
-import { colors } from "../styles/theme";
+import { auth } from "../../firebase/config";
+import { getOccurrences } from "../../firebase/databaseService";
+import { fetchSpaceObjects } from "../../services/celestrakService";
+import { Card, Button } from "../../components/UI";
+import BottomNav from "../../components/BottomNav";
+import { colors } from "../../styles/theme";
 
 // Mesmo cálculo de risco do resto do app
 const getCategoryType = (obj) => {

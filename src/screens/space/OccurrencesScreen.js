@@ -19,13 +19,13 @@ import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view
 import {
   createOccurrence,
   getOccurrences,
-} from "../firebase/databaseService";
+} from "../../firebase/databaseService";
 
-import { fetchSpaceObjects, FALLBACK_SATELLITES } from "../services/celestrakService";
+import { fetchSpaceObjects, FALLBACK_SATELLITES } from "../../services/celestrakService";
 
-import { Card, Button, StatusBadge } from "../components/UI";
-import BottomNav from "../components/BottomNav";
-import { colors } from "../styles/theme";
+import { Card, Button, StatusBadge } from "../../components/UI";
+import BottomNav from "../../components/BottomNav";
+import { colors } from "../../styles/theme";
 import { Ionicons } from '@expo/vector-icons';
 
 // Constantes

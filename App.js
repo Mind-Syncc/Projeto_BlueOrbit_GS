@@ -5,17 +5,17 @@ import { onAuthStateChanged, signOut } from 'firebase/auth';
 import * as Notifications from 'expo-notifications';
 import { auth } from './src/firebase/config';
 
-import LoginScreen from './src/screens/LoginScreen';
-import RegisterScreen from './src/screens/RegisterScreen';
-import DashboardScreen from './src/screens/DashboardScreen';
-import SpaceObjectsScreen from './src/screens/SpaceObjectsScreen';
-import SpaceObjectDetailScreen from './src/screens/SpaceObjectDetailScreen';
-import AIAnalysisScreen from './src/screens/AIAnalysisScreen';
-import AIChatScreen from './src/screens/AIChatScreen';
-import OccurrencesScreen from './src/screens/OccurrencesScreen';
-import NotificationsScreen from './src/screens/NotificationsScreen';
-import ProfileScreen from './src/screens/ProfileScreen';
-import OrbitalMapScreen from './src/screens/OrbitalMapScreen';
+import LoginScreen from './src/screens/auth/LoginScreen';
+import RegisterScreen from './src/screens/auth/RegisterScreen';
+import DashboardScreen from './src/screens/main/DashboardScreen';
+import SpaceObjectsScreen from './src/screens/space/SpaceObjectsScreen';
+import SpaceObjectDetailScreen from './src/screens/space/SpaceObjectDetailScreen';
+import OrbitalMapScreen from './src/screens/space/OrbitalMapScreen';
+import OccurrencesScreen from './src/screens/space/OccurrencesScreen';
+import AIAnalysisScreen from './src/screens/ai/AIAnalysisScreen';
+import AIChatScreen from './src/screens/ai/AIChatScreen';
+import NotificationsScreen from './src/screens/main/NotificationsScreen';
+import ProfileScreen from './src/screens/main/ProfileScreen';
 import { LogBox } from 'react-native';
 
 LogBox.ignoreLogs([

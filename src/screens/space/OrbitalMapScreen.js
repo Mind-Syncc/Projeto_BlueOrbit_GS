@@ -13,9 +13,9 @@ import {
 import { GLView } from "expo-gl";
 import { Renderer, TextureLoader } from "expo-three";
 import * as THREE from "three";
-import BottomNav from "../components/BottomNav";
-import { fetchSpaceObjects } from "../services/celestrakService";
-import { colors, riskLabels } from "../styles/theme";
+import BottomNav from "../../components/BottomNav";
+import { fetchSpaceObjects } from "../../services/celestrakService";
+import { colors, riskLabels } from "../../styles/theme";
 
 // Cores dos satélites (espelha o theme)
 const SAT_COLORS = {

@@ -12,7 +12,7 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Svg, { Path, Circle } from "react-native-svg";
-import { colors } from "../styles/theme";
+import { colors } from "../../styles/theme";
 
 const SYSTEM_PROMPT = `Você é BlueOrbit, uma IA especializada em monitoramento de segurança orbital e análise de objetos espaciais. Você responde sempre em Português do Brasil de forma técnica mas clara.
 
@@ -43,7 +43,7 @@ const sendToAI = async (messages) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer SEU_GROQ_API_KEY",
+        Authorization: "Bearer YOUR_GROQ_API_KEY",
       },
       body: JSON.stringify({
         model: "llama-3.3-70b-versatile",

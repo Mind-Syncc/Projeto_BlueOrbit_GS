@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase/config";
+import { auth } from "../../firebase/config";
 import { Ionicons } from "@expo/vector-icons";
 
 import {
@@ -24,8 +24,8 @@ import Svg, {
   Defs,
 } from "react-native-svg";
 
-import { Input, Button } from "../components/UI";
-import { colors } from "../styles/theme";
+import { Input, Button } from "../../components/UI";
+import { colors } from "../../styles/theme";
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");

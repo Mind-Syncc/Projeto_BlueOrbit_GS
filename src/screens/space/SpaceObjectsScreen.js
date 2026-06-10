@@ -12,10 +12,10 @@ import {
 
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Svg, { Path } from "react-native-svg";
-import { Card } from "../components/UI";
-import { colors } from "../styles/theme";
-import BottomNav from "../components/BottomNav";
-import { fetchSpaceObjects } from "../services/celestrakService";
+import { Card } from "../../components/UI";
+import { colors } from "../../styles/theme";
+import BottomNav from "../../components/BottomNav";
+import { fetchSpaceObjects } from "../../services/celestrakService";
 
 // CATEGORIAS
 const CATEGORIES = [
