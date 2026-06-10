@@ -135,7 +135,7 @@ Para garantir uma utilização segura e consistente, o sistema implementa:
 
 ## 🎥 Demonstração
 
-[![BlueOrbit Demo](README-assets/demo-thumbnail.jpg)](https://youtu.be/rLenU5lELR0)
+[![BlueOrbit Demo](assets/demo-thumbnail.jpg)](https://youtu.be/rLenU5lELR0)
 
 ▶️ Clique na imagem para assistir à demonstração completa.
 
