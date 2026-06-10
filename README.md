@@ -1,4 +1,4 @@
-# 🚀 BlueOrbit – Space Safety Intelligence
+# 🌍 BlueOrbit – Space Safety Intelligence
 
 ## 📖 Sobre o Projeto
 
@@ -133,11 +133,11 @@ Para garantir uma utilização segura e consistente, o sistema implementa:
 - Controle de estados de carregamento;
 - Tratamento para dados indisponíveis ou inválidos.
 
-## 🎥 Demonstração do Projeto
+## 🎥 Demonstração
 
-### Vídeo Demonstrativo
+[![BlueOrbit Demo](README-assets/demo-thumbnail.jpg)](https://youtu.be/rLenU5lELR0)
 
-> Inserir link do vídeo apresentando a aplicação.
+▶️ Clique na imagem para assistir à demonstração completa.
 
 ### Funcionalidades Demonstradas
 
@@ -188,17 +188,22 @@ Projeto_BlueOrbit_GS/
     │   ├── config.js
     │   └── databaseService.js
     ├── screens/
-    │   ├── AIAnalysisScreen.js
-    │   ├── AIChatScreen.js
-    │   ├── DashboardScreen.js
-    │   ├── LoginScreen.js
-    │   ├── NotificationsScreen.js
-    │   ├── OccurrencesScreen.js
-    │   ├── OrbitalMapScreen.js
-    │   ├── ProfileScreen.js
-    │   ├── RegisterScreen.js
-    │   ├── SpaceObjectDetailScreen.js
-    │   └── SpaceObjectsScreen.js
+    │   ├── ia/
+    │   │   ├── AIAnalysisScreen.js
+    │   │   └── AIChatScreen.js
+    │   ├── main/
+    │   │   ├── AlertsScreen.js
+    │   │   ├── DashboardScreen.js
+    │   │   ├── NotificationsScreen.js
+    │   │   └── ProfileScreen.js
+    │   ├── auth/
+    │   │   ├── LoginScreen.js
+    │   │   └── RegisterScreen.js
+    │   └── space/
+    │       ├── OccurrencesScreen.js
+    │       ├── OrbitalMapScreen.js
+    │       ├── SpaceObjectDetailScreen.js
+    │       └── SpaceObjectsScreen.js
     ├── services/
     │   └── celestrakService.js
     ├── styles/
@@ -223,7 +228,7 @@ Por meio do monitoramento orbital, análise de dados e Inteligência Artificial,
 - Paulo Henrique Monteiro Golovanevsky — RM555300
 - Pedro Henrique Silva Batista — RM558137
 
-## 🚀 BlueOrbit
+## 🌍 BlueOrbit
 
 **Monitorando o espaço hoje para proteger o futuro das operações orbitais.**
 
